@@ -1,0 +1,118 @@
+body{
+    background-color: #000000;
+}
+h1{
+    text-align: center;
+    font-family: laton, Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
+
+th, tr, td{
+    padding: 10px 15px;
+}
+div{
+    text-decoration: none;
+}
+
+table{
+    border-collapse: collapse;
+    font-size: 2.2em;
+    display: block;
+}
+
+.table-box{
+    display: flex;
+    justify-content: center;
+    border: 0;  
+}
+
+.col-style{
+    width: 170px;
+}
+
+.col-ppp{
+    background-color: aliceblue;
+}
+
+.col-fam{
+    background-color: rgb(69, 69, 213);
+    color: aliceblue;
+}
+
+.col-her{
+    background-color: rgb(46, 46, 169);
+    color: aliceblue;
+}
+
+.col-omg{
+    background-color: rgb(24, 24, 128);
+    color: aliceblue;
+}
+
+.col-shi{
+    background-color: rgb(6, 6, 95);
+    color: aliceblue;
+}
+
+.img-check{
+    display: block;
+    margin: 0 auto;
+}
+
+.logo-equis{
+    font-size: 1em;
+    color: rgb(64, 64, 64);
+    font-weight: 900;
+    font-family: Tahoma, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.col-gay{
+    background-color: lightsteelblue;
+}
+.col-bay{
+    background-color: lightsteelblue;
+}
+.col-spn{
+    background-color: lightsteelblue;
+}
+.col-plan{
+    background-color: rgb(255, 249, 249);
+}
+.col-fex{
+    background-color: lightsteelblue;
+}
+.col-tnt{
+    background-color: lightsteelblue;
+}
+.col-dww{
+    background-color: aliceblue;
+}
+
+.col-gol{
+    background-color: aliceblue;
+}
+.col-hbo{
+    background-color: aliceblue;
+}
+.col-espn{
+    background-color: aliceblue;
+}
+.col-rcn{
+    background-color: aliceblue;
+}
+a{
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    text-align: center;
+  
+   }
+.menuss{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="icon" href="img/yoooooo.ico">
+    <script src="js/scrip.js"></script>
+</head>
+<body><div>
+
+    <div class="form-bas">
+        <h1>FORMULARIO</h1>
+        <form method="post">
+            <legend><span class="legend-text">Ingrese los siguientes datos</span></legend>
+            <label>Seleccione el tipo de documento</label>
+        <select name="" id="">
+                <option value="C.C">Cédula de Ciudadanía</option>
+                <option value="T.I">Tarjeta de Identidad</option>
+                <option value="R.C">Registro Civíl</option>
+                <option value="C.E">Cédula extranjera</option>
+        </select>
+            <label>Ingrese su número de documento:</label>
+            <input type="text" class="nose">
+            <label>Fecha de nacimiento: DD/MM/AAAA</label>
+            <input type="text" class="nose">
+            <label>Ingrese su primer nombre:</label>
+            <input type="text" class="nose">
+            <label>Ingrese su segundo nombre:</label>
+            <input type="text" class="nose">
+            <label>Ingrese sus apellidos:</label>
+            <input type="text" class="nose">
+            <label>Lugar de residencia:</label>
+        <select name="" id="">
+               <option value="L.R">Pitalito</option>    
+               <option value="L.R">Timaná</option>
+               <option value="L.R">Oporapa</option>
+               <option value="L.R">Garzón</option>
+               <option value="L.R">Saladoblanco</option>
+               <option value="L.R">Bruselas</option>
+               <option value="L.R">Neiva</option>
+               <option value="L.R">Otro</option>
+        </select>
+            <label>Ingrese su correo electrónico</label>
+            <input type="email" name="Ingrese su email" id="">
+            <label>Ingrese su contraseña:</label>
+            <input type="password" name="Ingrese su contraseña" id="">
+            <label>Teléfono celular:</label>
+            <input type="text" class="nose">
+            <label>Seleccione los dias para visualizar los vuelos disponibles</label>
+            <input type="checkbox" name="fecha-cita" value="20230421">Viernes, 21 de Abril del 2003<br>
+            <input type="checkbox" name="fecha-cita" value="20230422">Sábado, 22 de Abril del 2023<br>
+            <input type="checkbox" name="fecha-cita" value="20230423">Domingo, 23 de Abril del 2023<br>
+            <input type="checkbox" name="fecha-cita" value="20230424">Lunes, 24 de Abril del 2023<br>
+            <input type="checkbox" name="fecha-cita" value="20230425">Martes, 25 de Abril del 2023<br>
+            <input type="checkbox" name="fecha-cita" value="20230426">Miércoles, 26 de Abril del 2023<br>
+            <input type="checkbox" name="fecha-cita" value="20230427">Jueves, 27 de Abril del 2023<br>
+            <label>Seleccione su género</label>
+            <input type="radio" name="Género" value="">Masculino<br>
+            <input type="radio" name="Género" value="">Femenino<br>
+            <input type="radio" name="Género" value="">Otros<br>
+            <label>Le gustaría realizar una petición especial</label>
+            <textarea name="peticiones" cols="30" rows="10"></textarea>
+            <input type="submit" value="Enviar">
+            <button onclick="imprimir()">Imprimir</button>
+        </form>
+    </div>
+</body>
+</html> 

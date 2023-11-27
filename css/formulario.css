@@ -1,0 +1,72 @@
+h1{
+    text-align: center;
+}
+
+form{
+    font-family: laton, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type="text"], input[type="submit"]{
+    display: block;
+}
+
+label{
+    font-family: laton, Tahoma, Geneva, Verdana, sans-serif;
+    display: block;
+    margin: 40px, 0 15px 0;
+}
+
+select{
+    cursor: pointer;
+}
+
+.nose{
+    margin-bottom: 20px;
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid black;
+    resize: none;
+}
+
+form{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    font-size: 1.2em;
+    box-shadow: black 0px 8px 24px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-bas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+legend{
+    background-color: rgb(71, 156, 195);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+a{
+    color: black;
+}
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+div{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+}

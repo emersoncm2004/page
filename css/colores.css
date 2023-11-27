@@ -1,0 +1,75 @@
+.box-colores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.box-color{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-family: laton, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.color-rojo{
+    background-color: rgb(255,0,0);
+}
+.color-verde{
+    background-color: rgb(3,61,15);
+}
+.color-violeta{
+    background-color: violet;
+}
+.color-salmon{
+    background-color: salmon;
+}
+
+.color-255-0-0{
+    background-color: rgb(255,0,0);
+}
+.color-3-61-15{
+    background-color: rgb(3,61,15);
+}
+.color-119-53-120{
+    background-color: violet;
+}
+.color-83-225-232{
+    background-color: salmon;
+}
+
+span{
+    color: aliceblue;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.colorff25a7{
+    background-color: rgb(255,0,0);
+}
+.colorb8860b{
+    background-color: rgb(3,61,15);
+}
+.color2f4f4f{
+    background-color: violet;
+}
+.color5f9ea0{
+    background-color: salmon;
+}
+body{
+    text-align: center;
+}
+div{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+}
+a{
+    color: black;
+}
